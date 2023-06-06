@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,800;0,900;1,600&display=swap"
+        rel="stylesheet">
+    <title>Projeto Pokemon</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#">
+            <img src="./src/imagens/pokeball.png" alt="pokebola" class="logo">
+        </a>
+        <button id="botao-alterar-tema">
+            <a>
+            <img src="./src/imagens/sun.png" alt="imagem do sol" class="imagem-botao">
+            </a>
+        </button>
+
+    </header>
+
+    <main>
+
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Bulbasaur</span>
+                    <span>#001</span>
+                </div>
+                <img src="./src/imagens/bulbasaur.gif" alt="Bulbassaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Bulbassauro é um pequeno Pokémon anfíbio quadrúpede de pele azul-esverdeada com manchas mais escuras. 
+                    Tem olhos vermelhos com pupilas brancas, orelhas pontiagudas no topo de sua cabeça e um focinho curto e rombudo acima de sua larga boca. Possui em cada uma de suas pernas grossas três garras afiadas. Nas costas de Bulbassauro há um grande bulbo de planta verde, que é cultivado a partir de uma semente plantada em seu nascimento. 
+                    O bulbo também esconde duas videiras semelhantes a tentáculos.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ivysaur</span>
+                    <span>#002</span>
+                </div>
+                <img src="./src/imagens/ivysaur.gif" alt="Ivysaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Ivyssauro é um Pokémon anfíbio quadrúpede que tem a pele azul-esverdeada com manchas mais escuras. 
+                    No topo de sua cabeça há orelhas pontudas com interior preto e olhos vermelhos estreitos. Ivyssauro tem um focinho curto e arredondado com uma boca larga e dois dentes pontiagudos na mandíbula superior. Cada um de seus pés tem três garras neles. O bulbo em suas costas floresceu em um grande botão rosa. 
+                    Um tronco marrom curto cercado por folhas verdes frondosas sustenta o botão.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venusaur</span>
+                    <span>#003</span>
+                </div>
+                <img src="./src/imagens/venusaur.gif" alt="Venusaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Venusaur é um Pokémon anfíbio quadrúpede atarracado com pele irregular e azul-esverdeada.
+                     Tem olhos vermelhos pequenos e circulares; um focinho curto e rombudo; e uma boca larga com dois dentes pontiagudos no maxilar superior e quatro no maxilar inferior. No topo de sua cabeça há orelhas pequenas e pontiagudas com interior rosa avermelhado. Tem três dedos com garras em cada pé. O botão em suas costas floresceu em uma grande flor rosa e com manchas brancas. A flor é sustentada por um tronco grosso e marrom cercado por folhas verdes. 
+                    Uma Venussauro fêmea terá uma semente no centro de sua flor.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmander</span>
+                    <span>#004</span>
+                </div>
+                <img src="./src/imagens/charmander.gif" alt="Charmander" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+                <p class="descricao">Charmander é facilmente o mais gentil e bem comportado de sua linha evolutiva. 
+                    Seus sentimentos e emoções podem ser lidos pela chama na ponta de sua cauda. Ela explode em fúria quando ele está com raiva, e vai piscar e ficar pequena e fraca caso esteja doente ou ferido. 
+                    Se rosnar, significa que está com raiva ou prestes a atacar.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmeleon</span>
+                    <span>#005</span>
+                </div>
+                <img src="./src/imagens/charmeleon.gif" alt="charmeleon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">fogo</li>
+                </ul>
+                <p class="descricao">É a forma evoluída de Charmander.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>charizard</span>
+                    <span>#006</span>
+                </div>
+                <img src="./src/imagens/charizard.gif" alt="charizard" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+                <p class="descricao">É a evolução de Charmeleon e a evolução final de Charmander.
+                     Antes da temporada X e Y.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div>
+                <img src="./src/imagens/squirtle.gif" alt="Squirtle" class="gif">
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+                <p class="descricao">É um dos Pokémon iniciais da região de Kanto.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div>
+                <img src="./src/imagens/wartortle.gif" alt="Wartortle" class="gif">
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+                <p class="descricao">Wartortle é um Pokémon do tipo Água, categorizado como Pokémon Tartaruga e introduzido na Primeira Geração.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div>
+                <img src="./src/imagens/blastoise.gif" alt="blastoise" class="gif">
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+                <p class="descricao">Blastoise é um Pokémon do tipo Água, categorizado como Pokémon Marisco e introduzido na Primeira Geração.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>caterpie</span>
+                    <span>#010</span>
+                </div>
+                <img src="./src/imagens/caterpie.gif" alt="Caterpie" class="gif">
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+                <p class="descricao">Caterpie é um Pokémon do tipo Inseto, categorizado como Pokémon Minhoca e introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Metapod</span>
+                    <span>#011</span>
+                </div>
+                <img src="./src/imagens/metapode.gif" alt="Metapod" class="gif">
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+                <p class="descricao"> Metapod é um Pokémon do tipo Inseto, categorizado como Pokémon Casulo e introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Butterfree</span>
+                    <span>#012</span>
+                </div>
+                <img src="./src/imagens/Butterfree.gif" alt="Butterfree" class="gif">
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo voador">Inseto</li>
+                </ul>
+                <p class="descricao">Butterfree é a evolução de Metapod e a evolução final de Caterpie.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Weedle</span>
+                    <span>#013</span>
+                </div>
+                <img src="./src/imagens/Weedle.gif" alt="Weedle" class="gif">
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Weedle é um Pokémon dos tipos Inseto e Venenoso, categorizado como Pokémon Inseto Peludo e introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Kakuna</span>
+                    <span>#014</span>
+                </div>
+                <img src="./src/imagens/Kakuna.gif" alt="Kakuna" class="gif">
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Kakuna é um Pokémon dos tipos Inseto e Venenoso, categorizado como Pokémon Casulo e introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Beedrill</span>
+                    <span>#015</span>
+                </div>
+                <img src="./src/imagens/Beedrill.gif" alt="Beedrill" class="gif">
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Beedrill é um Pokémon dos tipos Inseto e Venenoso, categorizado como Pokémon Abelha Venenosa e introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Pidgey</span>
+                    <span>#016</span>
+                </div>
+                <img src="./src/imagens/Pidgey.gif" alt="Pidgey" class="gif">
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+                <p class="descricao">Pidgey é um Pokémon dos tipos Normal e Voador, categorizado como Pokémon Passarinho e introduzido na Primeira Geração. </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Pidgeotto</span>
+                    <span>#017</span>
+                </div>
+                <img src="./src/imagens/Pidgeotto.gif" alt="Pidgeotto" class="gif">
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+                <p class="descricao">Pidgeotto é um Pokémon dos tipos Normal e Voador, categorizado como Pokémon Pássaro e introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Pidgeot</span>
+                    <span>#018</span>
+                </div>
+                <img src="./src/imagens/Pidgeot.gif" alt="Pidgeot" class="gif">
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+                <p class="descricao">Pidgeot é um Pokémon dos tipos Normal e Voador, categorizado como Pokémon Pássaro e introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Rattata</span>
+                    <span>#019</span>
+                </div>
+                <img src="./src/imagens/Rattata.gif" alt="Rattata" class="gif">
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Raticate</span>
+                    <span>#020</span>
+                </div>
+                <img src="./src/imagens/Raticate.gif" alt="Raticate" class="gif">
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Spearow</span>
+                    <span>#021</span>
+                </div>
+                <img src="./src/imagens/Spearow.gif" alt="Spearow" class="gif">
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Fearow</span>
+                    <span>#022</span>
+                </div>
+                <img src="./src/imagens/Fearow.gif" alt="Fearow" class="gif">
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ekans</span>
+                    <span>#023</span>
+                </div>
+                <img src="./src/imagens/Ekans.gif" alt="Ekans" class="gif">
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Arbok</span>
+                    <span>#024</span>
+                </div>
+                <img src="./src/imagens/Arbok.gif" alt="Arbok" class="gif">
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Pikachu</span>
+                    <span>#025</span>
+                </div>
+                <img src="./src/imagens/Pikachu.gif" alt="Pikachu" class="gif">
+                <ul class="tipos">
+                    <li class="tipo eletrico">Elétrico</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Raichu</span>
+                    <span>#026</span>
+                </div>
+                <img src="./src/imagens/Raichu.gif" alt="Raichu" class="gif">
+                <ul class="tipos">
+                    <li class="tipo eletrico">Elétrico</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Sandshrew</span>
+                    <span>#027</span>
+                </div>
+                <img src="./src/imagens/Sandshrew.gif" alt="Sandshrew" class="gif">
+                <ul class="tipos">
+                    <li class="tipo terrestre">Terrestre</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Sandslash</span>
+                    <span>#028</span>
+                </div>
+                <img src="./src/imagens/Sandslash.gif" alt="Sandslash" class="gif">
+                <ul class="tipos">
+                    <li class="tipo terrestre">Terrestre</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Nidoran♀</span>
+                    <span>#029</span>
+                </div>
+                <img src="./src/imagens/Nidoran.gif" alt="Nidoran♀" class="gif">
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Nidorina</span>
+                    <span>#030</span>
+                </div>
+                <img src="./src/imagens/Nidorina.gif" alt="Nidorina" class="gif">
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Nidoqueen</span>
+                    <span>#031</span>
+                </div>
+                <img src="./src/imagens/Nidoqueen.gif" alt="Nidoqueen" class="gif">
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                    <li class="tipo terrestre">Terrestre</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Nidoran♂</span>
+                    <span>#032</span>
+                </div>
+                <img src="./src/imagens/Nidoran2.gif" alt="Nidoran♂" class="gif">
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Nidorino</span>
+                    <span>#033</span>
+                </div>
+                <img src="./src/imagens/Nidorino.gif" alt="Nidorino" class="gif">
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Nidoking</span>
+                    <span>#034</span>
+                </div>
+                <img src="./src/imagens/Nidoking.gif" alt="Nidoking" class="gif">
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                    <li class="tipo terrestre">Terrestre</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Jigglypuff</span>
+                    <span>#035</span>
+                </div>
+                <img src="./src/imagens/Jigglypuff.gif" alt="Jigglypuff" class="gif">
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo fada">Fada</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wigglytuff</span>
+                    <span>#036</span>
+                </div>
+                <img src="./src/imagens/Wigglytuff.gif" alt="Wigglytuff" class="gif">
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo fada">Fada</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Clefairy</span>
+                    <span>#037</span>
+                </div>
+                <img src="./src/imagens/Clafairy.gif" alt="Clefairy" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fada">Fada</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Clefable</span>
+                    <span>#038</span>
+                </div>
+                <img src="./src/imagens/Clefable.gif" alt="Clefable" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fada">Fada</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Vulpix</span>
+                    <span>#039</span>
+                </div>
+                <img src="./src/imagens/Vulpix.gif" alt="Vulpix" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ninatales</span>
+                    <span>#040</span>
+                </div>
+                <img src="./src/imagens/Ninetales.gif" alt="Ninatales" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Zubat</span>
+                    <span>#041</span>
+                </div>
+                <img src="./src/imagens/zubatt.gif" alt="Zubat" class="gif">
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Golbat</span>
+                    <span>#042</span>
+                </div>
+                <img src="./src/imagens/Golbat.gif" alt="Golbat" class="gif">
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Oddish</span>
+                    <span>#043</span>
+                </div>
+                <img src="./src/imagens/oddish.gif" alt="Oddish" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Gloom</span>
+                    <span>#044</span>
+                </div>
+                <img src="./src/imagens/Gloom.gif" alt="Gloom" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Vileplume</span>
+                    <span>#045</span>
+                </div>
+                <img src="./src/imagens/Vileplume.gif" alt="Vileplume" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Paras</span>
+                    <span>#046</span>
+                </div>
+                <img src="./src/imagens/Paras.gif" alt="Paras" class="gif">
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo grama">Grama</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Parasect</span>
+                    <span>#047</span>
+                </div>
+                <img src="./src/imagens/Parasect.gif" alt="Parasect" class="gif">
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo grama">Grama</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venonat</span>
+                    <span>#048</span>
+                </div>
+                <img src="./src/imagens/Venonat.gif" alt="Venonat" class="gif">
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venomoth</span>
+                    <span>#049</span>
+                </div>
+                <img src="./src/imagens/.gif" alt="Venomoth" class="gif">
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span></span>
+                    <span>#0</span>
+                </div>
+                <img src="./src/imagens/.gif" alt="" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo"></li>
+                    <li class="tipo fogo"></li>
+                </ul>
+                <p class="descricao">É um Pokémon  que é introduzido na Primeira Geração.</p>
+            </li>
+
+        </ul>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
